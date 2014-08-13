@@ -201,6 +201,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.81298684305794633" green="1" blue="0.92438631066765486" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="level2" destination="614-eY-5yR" id="uwT-l0-nl3"/>
+                        <outlet property="level3" destination="LvE-tB-LrD" id="gtC-dZ-VW7"/>
+                        <outlet property="level4" destination="9sf-tu-8TR" id="nBJ-v7-EGk"/>
+                        <outlet property="level5" destination="0Sz-V2-SqB" id="ULn-BG-Ip0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kap-0p-H8u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

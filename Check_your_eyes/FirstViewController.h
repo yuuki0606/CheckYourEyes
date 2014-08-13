@@ -17,8 +17,14 @@
 
 
 @property (strong, nonatomic) IBOutlet UIImageView *level1Image;
+@property (strong, nonatomic) IBOutlet UIButton *level2;
+@property (strong, nonatomic) IBOutlet UIButton *level3;
+@property (strong, nonatomic) IBOutlet UIButton *level4;
+@property (strong, nonatomic) IBOutlet UIButton *level5;
 
-@property (strong, nonatomic) IBOutlet UInextLabel *level1Image;
+
+
+
 
 
 @end
