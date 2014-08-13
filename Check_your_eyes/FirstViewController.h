@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FirstViewController : UIViewController
 {
     int number;//方向を区別するための数字
+    int num;
 }
 
 
@@ -24,4 +25,5 @@
 -(IBAction)right;
 -(IBAction)down;
 -(IBAction)back;
+-(IBAction)button:(UIButton *)button;
 @end

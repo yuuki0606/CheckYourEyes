@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 yuuki. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FirstViewController.h"
 
-@interface ViewController ()
+@interface FirstViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FirstViewController
 
 - (void)viewDidLoad
 {
@@ -84,6 +84,7 @@
 -(IBAction)back{
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
 
 
 @end
