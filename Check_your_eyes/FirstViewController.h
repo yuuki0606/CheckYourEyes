@@ -15,15 +15,10 @@
 }
 
 
-@property (strong, nonatomic) IBOutlet UILabel *nextLabel;
+
 @property (strong, nonatomic) IBOutlet UIImageView *level1Image;
 
+@property (strong, nonatomic) IBOutlet UInextLabel *level1Image;
 
 
--(IBAction)up;
--(IBAction)left;
--(IBAction)right;
--(IBAction)down;
--(IBAction)back;
--(IBAction)button:(UIButton *)button;
 @end

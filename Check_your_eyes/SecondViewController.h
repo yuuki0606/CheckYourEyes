@@ -10,4 +10,12 @@
 
 @interface SecondViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *nextLabel;
+-(IBAction)up;
+-(IBAction)left;
+-(IBAction)right;
+-(IBAction)down;
+-(IBAction)back;
+-(IBAction)kierubutton:(UIButton *)button;
+
 @end

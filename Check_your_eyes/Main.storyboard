@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="-853" y="50"/>
         </scene>
-        <!--Therd-->
+        <!--Second View Controller-->
         <scene sceneID="vQv-GF-p80">
             <objects>
-                <viewController id="OGl-pC-saB" customClass="therd" sceneMemberID="viewController">
+                <viewController id="OGl-pC-saB" customClass="SecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BEB-05-yJU"/>
                         <viewControllerLayoutGuide type="bottom" id="wiO-KI-4De"/>
@@ -65,6 +65,9 @@
                                 <state key="normal" title="↑">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="up" destination="OGl-pC-saB" eventType="touchUpInside" id="Yg3-3K-H4B"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lyt-C7-j2B">
                                 <rect key="frame" x="94" y="478" width="30" height="30"/>
@@ -73,6 +76,9 @@
                                 <state key="normal" title="←">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="left" destination="OGl-pC-saB" eventType="touchUpInside" id="FLV-mS-Gdd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShR-MU-Lk0">
                                 <rect key="frame" x="142" y="521" width="30" height="30"/>
@@ -81,6 +87,9 @@
                                 <state key="normal" title="↓">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="down" destination="OGl-pC-saB" eventType="touchUpInside" id="0uC-kx-uTW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcq-mc-NLD">
                                 <rect key="frame" x="183" y="478" width="30" height="30"/>
@@ -89,6 +98,9 @@
                                 <state key="normal" title="→">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="right" destination="OGl-pC-saB" eventType="touchUpInside" id="5U7-1e-R0K"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check_eye_Level1.png" translatesAutoresizingMaskIntoConstraints="NO" id="aGf-8t-J90">
                                 <rect key="frame" x="37" y="218" width="240" height="194"/>
@@ -100,6 +112,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U37-0Q-whK">
+                                <rect key="frame" x="11" y="532" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.29489078270000002" blue="0.21990600739999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="4d4-Vy-oOc" eventType="touchDragOutside" id="26u-LP-koI"/>
+                                    <action selector="back" destination="OGl-pC-saB" eventType="touchUpInside" id="D9B-BZ-XCY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
