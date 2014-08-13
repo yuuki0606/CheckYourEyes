@@ -10,6 +10,7 @@
 
 @interface SecondViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *level1Image;
 @property (strong, nonatomic) IBOutlet UILabel *nextLabel;
 -(IBAction)up;
 -(IBAction)left;

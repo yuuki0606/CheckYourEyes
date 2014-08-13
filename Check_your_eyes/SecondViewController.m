@@ -30,6 +30,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    number=1;
 }
 
 - (void)didReceiveMemoryWarning
@@ -97,13 +98,13 @@
 -(void)clear{
     self.nextLabel.hidden=NO;
     self.nextLabel.text=@"次の問題へGO!";
-//    self.level1Image.alpha=0.0f;
+    self.level1Image.alpha=0.0f;
 }
 
 -(void)miss{
     self.nextLabel.hidden=NO;
     self.nextLabel.text=@"残念!メガネが必要だよ！";
-//    self.level1Image.alpha=1.0f;
+    self.level1Image.alpha=1.0f;
 }
 -(IBAction)back{
     [self dismissViewControllerAnimated:YES completion:nil];

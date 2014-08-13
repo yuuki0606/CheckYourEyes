@@ -19,6 +19,11 @@
     [super viewDidLoad];
 	//画面が立ち上がったときに一回だけ呼ばれる
     self.level2.hidden=YES;
+    self.level3.hidden=YES;
+    self.level4.hidden=YES;
+    self.level5.hidden=YES;
+
+
     
     
 }

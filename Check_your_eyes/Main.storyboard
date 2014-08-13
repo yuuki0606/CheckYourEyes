@@ -102,12 +102,12 @@
                                     <action selector="right" destination="OGl-pC-saB" eventType="touchUpInside" id="5U7-1e-R0K"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check_eye_Level1.png" translatesAutoresizingMaskIntoConstraints="NO" id="aGf-8t-J90">
-                                <rect key="frame" x="37" y="218" width="240" height="194"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check_eye_Level1.png" translatesAutoresizingMaskIntoConstraints="NO" id="aGf-8t-J90">
+                                <rect key="frame" x="40" y="227" width="240" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="残念!!メガネが必要だよ!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYv-be-LUV">
-                                <rect key="frame" x="68" y="363" width="184" height="21"/>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="残念!!メガネが必要だよ!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYv-be-LUV">
+                                <rect key="frame" x="40" y="360" width="232" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -120,13 +120,16 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="back" destination="4d4-Vy-oOc" eventType="touchDragOutside" id="26u-LP-koI"/>
                                     <action selector="back" destination="OGl-pC-saB" eventType="touchUpInside" id="D9B-BZ-XCY"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="level1Image" destination="MQj-wO-T5h" id="yyo-Ce-OKd"/>
+                        <outlet property="nextLabel" destination="yYv-be-LUV" id="ifI-tj-Ykc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="egz-8U-4fF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,7 +198,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="back" destination="4d4-Vy-oOc" eventType="touchDragOutside" id="MLS-dn-1bU"/>
+                                    <action selector="back" destination="4d4-Vy-oOc" eventType="touchUpInside" id="g89-KA-HlC"/>
                                 </connections>
                             </button>
                         </subviews>
