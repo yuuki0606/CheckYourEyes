@@ -124,14 +124,14 @@
                                     <action selector="back" destination="OGl-pC-saB" eventType="touchUpInside" id="D9B-BZ-XCY"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejf-j4-GSr">
-                                <rect key="frame" x="268" y="532" width="30" height="30"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LfS-3G-mYS">
+                                <rect key="frame" x="256" y="521" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="next">
+                                <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Xeb-cj-TBQ" kind="modal" id="0xf-qb-nRa"/>
+                                    <segue destination="Xeb-cj-TBQ" kind="modal" id="C0w-6q-n9K"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -162,7 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qsU-ht-fUN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="284" y="50"/>
+            <point key="canvasLocation" x="346" y="24"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="H40-Ds-1mZ">
