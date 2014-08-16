@@ -1,14 +1,14 @@
 //
-//  TherdViewController.m
+//  FifthViewController.m
 //  Check_your_eyes
 //
 //  Created by yuuki on 2014/08/13.
 //  Copyright (c) 2014年 yuuki. All rights reserved.
 //
 
-#import "TherdViewController.h"
+#import "FifthViewController.h"
 
-@interface TherdViewController (){
+@interface FifthViewController (){
     int num;
     int number;
     int ImageView;
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation TherdViewController
+@implementation FifthViewController
 
 //- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 //{
@@ -59,39 +59,39 @@
 //    }
 //}
 -(IBAction)up{
-    if(number==4){
-        NSLog(@"次の問題へGO!");
+    if(number==3){
+        NSLog(@"正解!");
         [self clear];
     }else{
-        NSLog(@"休憩が必要だよ！");
+        NSLog(@"スーパー視力だよ！");
         [self miss];
     }
 }
 -(IBAction)left{
-    if(number==3){
+    if(number==4){
         NSLog(@"次の問題へGO!");
         [self clear];
         
     }else{
-        NSLog(@"休憩が必要だよ！");
+        NSLog(@"スーパー視力だよ！");
         [self miss];
     }
 }
 -(IBAction)right{
-    if(number==2){
-        NSLog(@"次の問題へGO!");
-        [self clear];
-    }else{
-        NSLog(@"休憩が必要だよ！");
-        [self miss];
-    }
-}
--(IBAction)down{
     if(number==1){
         NSLog(@"次の問題へGO!");
         [self clear];
     }else{
-        NSLog(@"休憩が必要だよ！");
+        NSLog(@"スーパー視力だよ！");
+        [self miss];
+    }
+}
+-(IBAction)down{
+    if(number==2){
+        NSLog(@"次の問題へGO!");
+        [self clear];
+    }else{
+        NSLog(@"スーパー視力だよ！");
         [self miss];
     }
 }
@@ -99,14 +99,14 @@
 -(void)clear{
     self.nextLabel.hidden=NO;
     self.nextLabel.text=@"次の問題へGO!";
-    self.level3Image.alpha=0.0f;
+    self.level4Image.alpha=0.0f;
 }
 
 -(void)miss{
     self.nextLabel.hidden=NO;
-    self.check_eye_level2.hidden=NO;
-    self.nextLabel.text=@"休憩が必要だよ！";
-    self.level3Image.alpha=1.0f;
+    self.check_eye_level4.hidden=NO;
+    self.nextLabel.text=@"スーパー視力だよ！";
+    self.level4Image.alpha=1.0f;
 }
 -(IBAction)back{
     [self dismissViewControllerAnimated:YES completion:nil];

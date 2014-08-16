@@ -10,8 +10,9 @@
 
 @interface SecondViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIImageView *level1Image;
+@property (strong, nonatomic) IBOutlet UIImageView *level2Image;
 @property (strong, nonatomic) IBOutlet UILabel *nextLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *check_eye_level2;
 -(IBAction)up;
 -(IBAction)left;
 -(IBAction)right;

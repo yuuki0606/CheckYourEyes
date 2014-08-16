@@ -39,6 +39,10 @@
 		61A6B5461978122800AEDAFD /* check_eye_Level4.png in Resources */ = {isa = PBXBuildFile; fileRef = 61A6B5411978122800AEDAFD /* check_eye_Level4.png */; };
 		61A6B5471978122800AEDAFD /* check_eye_Level5.png in Resources */ = {isa = PBXBuildFile; fileRef = 61A6B5421978122800AEDAFD /* check_eye_Level5.png */; };
 		61E3EA98199AF9F10033E386 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E3EA97199AF9F10033E386 /* SecondViewController.m */; };
+		61F1749C199EE16C00BE22EF /* ドーナツ５.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F1749B199EE16C00BE22EF /* ドーナツ５.png */; };
+		61F1749F199EEAC700BE22EF /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F1749E199EEAC700BE22EF /* ForthViewController.m */; };
+		61F174A2199EEE6A00BE22EF /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F174A1199EEE6A00BE22EF /* FifthViewController.m */; };
+		61F174A5199EF1D800BE22EF /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F174A4199EF1D800BE22EF /* SixViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +95,13 @@
 		61A6B5421978122800AEDAFD /* check_eye_Level5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_eye_Level5.png; sourceTree = "<group>"; };
 		61E3EA96199AF9F10033E386 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		61E3EA97199AF9F10033E386 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		61F1749B199EE16C00BE22EF /* ドーナツ５.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ドーナツ５.png"; sourceTree = "<group>"; };
+		61F1749D199EEAC700BE22EF /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		61F1749E199EEAC700BE22EF /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		61F174A0199EEE6A00BE22EF /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		61F174A1199EEE6A00BE22EF /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		61F174A3199EF1D800BE22EF /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		61F174A4199EF1D800BE22EF /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +167,7 @@
 				61953009197A45E600962ED7 /* ドーナツ3.png */,
 				6198C2FD197E9F6E00A56C6B /* ドーナツ4.png */,
 				61953007197A2F4F00962ED7 /* ドーナツ２.png */,
+				61F1749B199EE16C00BE22EF /* ドーナツ５.png */,
 				61953005197A2ADC00962ED7 /* ドーナツ.png */,
 				61A6B53E1978122800AEDAFD /* check_eye_Level1.png */,
 				61A6B53F1978122800AEDAFD /* check_eye_Level2.png */,
@@ -171,6 +183,12 @@
 				61E3EA97199AF9F10033E386 /* SecondViewController.m */,
 				61991F09199C597900DEF977 /* TherdViewController.h */,
 				61991F0A199C597900DEF977 /* TherdViewController.m */,
+				61F1749D199EEAC700BE22EF /* ForthViewController.h */,
+				61F1749E199EEAC700BE22EF /* ForthViewController.m */,
+				61F174A0199EEE6A00BE22EF /* FifthViewController.h */,
+				61F174A1199EEE6A00BE22EF /* FifthViewController.m */,
+				61F174A3199EF1D800BE22EF /* SixViewController.h */,
+				61F174A4199EF1D800BE22EF /* SixViewController.m */,
 				61A4E5AC1987EA0B007B53A7 /* facebook.png */,
 				61A4E5AD1987EA0B007B53A7 /* ツイッター.png */,
 				61A4E5AE1987EA0B007B53A7 /* ツイッター.jpeg */,
@@ -295,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61A6B5441978122800AEDAFD /* check_eye_Level2.png in Resources */,
+				61F1749C199EE16C00BE22EF /* ドーナツ５.png in Resources */,
 				619A2D371976A9FA0009DD39 /* Images.xcassets in Resources */,
 				61A4E5B11987EA0B007B53A7 /* ツイッター.png in Resources */,
 				61A6B5461978122800AEDAFD /* check_eye_Level4.png in Resources */,
@@ -332,9 +351,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				61991F0B199C597900DEF977 /* TherdViewController.m in Sources */,
+				61F174A5199EF1D800BE22EF /* SixViewController.m in Sources */,
 				61E3EA98199AF9F10033E386 /* SecondViewController.m in Sources */,
+				61F1749F199EEAC700BE22EF /* ForthViewController.m in Sources */,
 				619A2D351976A9FA0009DD39 /* FirstViewController.m in Sources */,
 				619A2D2F1976A9FA0009DD39 /* AppDelegate.m in Sources */,
+				61F174A2199EEE6A00BE22EF /* FifthViewController.m in Sources */,
 				619A2D2B1976A9FA0009DD39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

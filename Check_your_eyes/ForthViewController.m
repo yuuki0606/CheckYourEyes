@@ -1,14 +1,14 @@
 //
-//  TherdViewController.m
+//  ForthViewController.m
 //  Check_your_eyes
 //
 //  Created by yuuki on 2014/08/13.
 //  Copyright (c) 2014年 yuuki. All rights reserved.
 //
 
-#import "TherdViewController.h"
+#import "ForthViewController.h"
 
-@interface TherdViewController (){
+@interface ForthViewController (){
     int num;
     int number;
     int ImageView;
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation TherdViewController
+@implementation ForthViewController
 
 //- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 //{
@@ -60,10 +60,10 @@
 //}
 -(IBAction)up{
     if(number==4){
-        NSLog(@"次の問題へGO!");
+        NSLog(@"正解!");
         [self clear];
     }else{
-        NSLog(@"休憩が必要だよ！");
+        NSLog(@"普通の視力だよ！");
         [self miss];
     }
 }
@@ -73,7 +73,7 @@
         [self clear];
         
     }else{
-        NSLog(@"休憩が必要だよ！");
+        NSLog(@"普通の視力だよ！");
         [self miss];
     }
 }
@@ -82,7 +82,7 @@
         NSLog(@"次の問題へGO!");
         [self clear];
     }else{
-        NSLog(@"休憩が必要だよ！");
+        NSLog(@"普通の視力だよ！");
         [self miss];
     }
 }
@@ -91,7 +91,7 @@
         NSLog(@"次の問題へGO!");
         [self clear];
     }else{
-        NSLog(@"休憩が必要だよ！");
+        NSLog(@"普通の視力だよ！");
         [self miss];
     }
 }
@@ -99,14 +99,14 @@
 -(void)clear{
     self.nextLabel.hidden=NO;
     self.nextLabel.text=@"次の問題へGO!";
-    self.level3Image.alpha=0.0f;
+    self.level3vImage.alpha=0.0f;
 }
 
 -(void)miss{
     self.nextLabel.hidden=NO;
-    self.check_eye_level2.hidden=NO;
-    self.nextLabel.text=@"休憩が必要だよ！";
-    self.level3Image.alpha=1.0f;
+    self.check_eye_level3.hidden=NO;
+    self.nextLabel.text=@"普通の視力だよ！";
+    self.level3vImage.alpha=1.0f;
 }
 -(IBAction)back{
     [self dismissViewControllerAnimated:YES completion:nil];
