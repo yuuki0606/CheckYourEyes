@@ -25,8 +25,9 @@
 		619A2D401976A9FB0009DD39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619A2D221976A9FA0009DD39 /* UIKit.framework */; };
 		619A2D481976A9FB0009DD39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 619A2D461976A9FB0009DD39 /* InfoPlist.strings */; };
 		619A2D4A1976A9FB0009DD39 /* Check_your_eyesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619A2D491976A9FB0009DD39 /* Check_your_eyesTests.m */; };
+		61A23E9B199DD5AE00199CE2 /* level1-2-復元.png in Resources */ = {isa = PBXBuildFile; fileRef = 61A23E9A199DD5AE00199CE2 /* level1-2-復元.png */; };
 		61A31FD91999B336004F0690 /* 名称未設定.png in Resources */ = {isa = PBXBuildFile; fileRef = 61A31FD81999B336004F0690 /* 名称未設定.png */; };
-		61A31FDD1999B5BC004F0690 /* mian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A31FDC1999B5BC004F0690 /* mian.storyboard */; };
+		61A31FDD1999B5BC004F0690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A31FDC1999B5BC004F0690 /* Main.storyboard */; };
 		61A4E5AF1987EA0B007B53A7 /* facebook.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 61A4E5AB1987EA0B007B53A7 /* facebook.jpeg */; };
 		61A4E5B01987EA0B007B53A7 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 61A4E5AC1987EA0B007B53A7 /* facebook.png */; };
 		61A4E5B11987EA0B007B53A7 /* ツイッター.png in Resources */ = {isa = PBXBuildFile; fileRef = 61A4E5AD1987EA0B007B53A7 /* ツイッター.png */; };
@@ -75,8 +76,9 @@
 		619A2D451976A9FB0009DD39 /* Check_your_eyesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Check_your_eyesTests-Info.plist"; sourceTree = "<group>"; };
 		619A2D471976A9FB0009DD39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		619A2D491976A9FB0009DD39 /* Check_your_eyesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Check_your_eyesTests.m; sourceTree = "<group>"; };
+		61A23E9A199DD5AE00199CE2 /* level1-2-復元.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "level1-2-復元.png"; sourceTree = "<group>"; };
 		61A31FD81999B336004F0690 /* 名称未設定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名称未設定.png"; sourceTree = "<group>"; };
-		61A31FDC1999B5BC004F0690 /* mian.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mian.storyboard; sourceTree = "<group>"; };
+		61A31FDC1999B5BC004F0690 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		61A4E5AB1987EA0B007B53A7 /* facebook.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facebook.jpeg; sourceTree = "<group>"; };
 		61A4E5AC1987EA0B007B53A7 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		61A4E5AD1987EA0B007B53A7 /* ツイッター.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ツイッター.png"; sourceTree = "<group>"; };
@@ -163,7 +165,8 @@
 				619A2D331976A9FA0009DD39 /* FirstViewController.h */,
 				619A2D341976A9FA0009DD39 /* FirstViewController.m */,
 				61A4E5AB1987EA0B007B53A7 /* facebook.jpeg */,
-				61A31FDC1999B5BC004F0690 /* mian.storyboard */,
+				61A31FDC1999B5BC004F0690 /* Main.storyboard */,
+				61A23E99199DD5AE00199CE2 /* sdfghjkl;;;-----:_.,mnbvcxz  名称未設定フォルダ1234567890-@poiuytrewq */,
 				61E3EA96199AF9F10033E386 /* SecondViewController.h */,
 				61E3EA97199AF9F10033E386 /* SecondViewController.m */,
 				61991F09199C597900DEF977 /* TherdViewController.h */,
@@ -205,6 +208,14 @@
 				619A2D461976A9FB0009DD39 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61A23E99199DD5AE00199CE2 /* sdfghjkl;;;-----:_.,mnbvcxz  名称未設定フォルダ1234567890-@poiuytrewq */ = {
+			isa = PBXGroup;
+			children = (
+				61A23E9A199DD5AE00199CE2 /* level1-2-復元.png */,
+			);
+			path = "sdfghjkl;;;-----:_.,mnbvcxz  名称未設定フォルダ1234567890-@poiuytrewq";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,9 +307,10 @@
 				61A31FD91999B336004F0690 /* 名称未設定.png in Resources */,
 				619A2D291976A9FA0009DD39 /* InfoPlist.strings in Resources */,
 				61953008197A2F4F00962ED7 /* ドーナツ２.png in Resources */,
+				61A23E9B199DD5AE00199CE2 /* level1-2-復元.png in Resources */,
 				61A6B5471978122800AEDAFD /* check_eye_Level5.png in Resources */,
 				61A6B53D1978001000AEDAFD /* icon@2x.png in Resources */,
-				61A31FDD1999B5BC004F0690 /* mian.storyboard in Resources */,
+				61A31FDD1999B5BC004F0690 /* Main.storyboard in Resources */,
 				61953006197A2ADC00962ED7 /* ドーナツ.png in Resources */,
 				61A4E5AF1987EA0B007B53A7 /* facebook.jpeg in Resources */,
 			);

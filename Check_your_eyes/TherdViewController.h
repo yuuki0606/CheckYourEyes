@@ -10,4 +10,12 @@
 
 @interface TherdViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *level2Image;
+@property (strong, nonatomic) IBOutlet UILabel *nextLabel;
+-(IBAction)up;
+-(IBAction)left;
+-(IBAction)right;
+-(IBAction)down;
+-(IBAction)back;
+
 @end

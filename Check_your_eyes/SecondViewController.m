@@ -17,14 +17,14 @@
 
 @implementation SecondViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+//- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+//{
+//    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+//    if (self) {
+//        // Custom initialization
+//    }
+//    return self;
+//}
 
 - (void)viewDidLoad
 {
@@ -49,14 +49,14 @@
     // Pass the selected object to the new view controller.
 }
 */
--(IBAction)kierubutton:(UIButton *)button
-{
-    int tapNum = [button.titleLabel.text intValue];
-    if(tapNum ==  num+ 1){
-        num = tapNum;
-        button.hidden=YES;
-    }
-}
+//-(IBAction)kierubutton:(UIButton *)button
+//{
+//    int tapNum = [button.titleLabel.text intValue];
+//    if(tapNum ==  num+ 1){
+//        num = tapNum;
+//        button.hidden=YES;
+//    }
+//}
 -(IBAction)up{
     if(number==1){
         NSLog(@"正解!");
@@ -109,6 +109,5 @@
 -(IBAction)back{
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 
 @end

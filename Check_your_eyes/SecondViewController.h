@@ -17,6 +17,5 @@
 -(IBAction)right;
 -(IBAction)down;
 -(IBAction)back;
--(IBAction)kierubutton:(UIButton *)button;
-
+//-(IBAction)kierubutton:(UIButton *)button;
 @end
